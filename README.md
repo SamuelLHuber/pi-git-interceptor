@@ -11,6 +11,8 @@ Inspired by the git guardrails in [dmmulroy/.dotfiles](https://github.com/dmmulr
 
 ## Install
 
+### Via npm
+
 ```bash
 pi install npm:pi-git-interceptor
 ```
@@ -19,6 +21,12 @@ Or try it without installing:
 
 ```bash
 pi -e npm:pi-git-interceptor
+```
+
+### Via git
+
+```bash
+pi install git:https://github.com/SamuelLHuber/pi-git-interceptor.git
 ```
 
 ## Why this matters
